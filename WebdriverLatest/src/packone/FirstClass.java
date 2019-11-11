@@ -22,7 +22,7 @@ public class FirstClass {
 		System.setProperty("webdriver.ie.driver", "C:\\Users\\DELL\\Desktop\\WD8PM\\Jars\\IEDriverServer.exe");
 		WebDriver driver2=new InternetExplorerDriver();
 		driver2.get("http://yahoomail.com");
-		driver2.manage().window().maximize();
+		driver2.manage().window().fullscreen();
 
 	}
 
